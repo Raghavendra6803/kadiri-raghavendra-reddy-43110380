@@ -1,0 +1,23 @@
+package nov21;
+	
+	class Father {
+	    void occupation() {
+	        System.out.println("Father is a Teacher");
+	    }
+	}
+
+	class Son extends Father {
+	    void occupation() {
+	        System.out.println("Son is a Doctor");
+	    }
+	}
+
+	public class OMRKing {
+	    public static void main(String[] args) {
+	        Father f = new Father();   
+	        f.occupation();            
+
+	        Father s = new Son();      
+	        s.occupation();           
+	    }
+	}
